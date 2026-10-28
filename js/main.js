@@ -26,6 +26,11 @@
     root.dataset.mode = root.dataset.mode === 'grid' ? '' : 'grid';
   });
 
+  // Click the avatar to enlarge it; click anywhere or press Esc to close
+  const photo = document.getElementById('photo');
+  document.querySelector('.avatar-btn').addEventListener('click', () => photo.showModal());
+  photo.addEventListener('click', () => photo.close());
+
   const y = document.getElementById('year');
   if (y) y.textContent = new Date().getFullYear();
 })();
