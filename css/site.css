@@ -218,6 +218,7 @@ h1 { font-size: clamp(2.8rem, 6.5vw, 4.6rem); font-weight: 700; letter-spacing: 
 .group { font: 500 .78rem var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 18px; }
 .timeline + .group { margin-top: 40px; }
 .org { font-weight: 600; color: var(--ink) !important; margin: 0 0 6px !important; font-size: .95rem; }
+.org a { text-decoration-color: var(--coral); text-decoration-thickness: 2px; text-underline-offset: 3px; }
 .timeline li[style*="--ink"]::before { background: var(--surface); }
 .plain { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; font-size: .93rem; }
 .plain li { line-height: 1.45; }
